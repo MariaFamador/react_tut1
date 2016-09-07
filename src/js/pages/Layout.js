@@ -3,7 +3,7 @@ import {Link} from "react-router";
 
 export default class Layout extends React.Component {
   navigate() {
-    this.props.history.pushState(null, '/');
+    this.props.history.push('/');
   }
 
   render() {
